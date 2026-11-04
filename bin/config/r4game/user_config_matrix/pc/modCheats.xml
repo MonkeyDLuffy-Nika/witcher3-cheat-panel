@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserConfig>
+	<Group id="CheatsMain" displayName="mods.cheats_main" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatGodMode" displayName="Бессмертие (защита от урона)" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatZeroToxicity" displayName="0 интоксикации (зелья без лимита)" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatAddMoney" displayName="Выдать кроны (+1k / +2.5k)" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Выбрать сумму...">
+						<Entry varId="CheatAddMoney" value="0"/>
+					</Option>
+					<Option id="1" displayName="+1 000 крон (+1k)">
+						<Entry varId="CheatAddMoney" value="1"/>
+					</Option>
+					<Option id="2" displayName="+2 500 крон (+2.5k)">
+						<Entry varId="CheatAddMoney" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatDamageMult" displayName="Мультипликатор урона" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="1x (Обычный)">
+						<Entry varId="CheatDamageMult" value="1"/>
+					</Option>
+					<Option id="1" displayName="2x (Двойной урон)">
+						<Entry varId="CheatDamageMult" value="2"/>
+					</Option>
+					<Option id="2" displayName="3x (Тройной урон)">
+						<Entry varId="CheatDamageMult" value="3"/>
+					</Option>
+					<Option id="3" displayName="4x (Четверной урон)">
+						<Entry varId="CheatDamageMult" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatGwentWinCardReward" displayName="Случайная карта за победу в Гвинте" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatGiveNorthernCards" displayName="Выдать полную колоду Севера" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="---">
+						<Entry varId="CheatGiveNorthernCards" value="0"/>
+					</Option>
+					<Option id="1" displayName="Выдать полную колоду">
+						<Entry varId="CheatGiveNorthernCards" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatGiveSkelligeCards" displayName="Выдать полную колоду Скеллиге" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="---">
+						<Entry varId="CheatGiveSkelligeCards" value="0"/>
+					</Option>
+					<Option id="1" displayName="Выдать полную колоду">
+						<Entry varId="CheatGiveSkelligeCards" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatGiveMonstersCards" displayName="Выдать полную колоду Чудовищ" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="---">
+						<Entry varId="CheatGiveMonstersCards" value="0"/>
+					</Option>
+					<Option id="1" displayName="Выдать полную колоду">
+						<Entry varId="CheatGiveMonstersCards" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsCrossbow" displayName="mods.cheats_crossbow" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatGiveCrossbow" displayName="Выдать простой арбалет" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="---">
+						<Entry varId="CheatGiveCrossbow" value="0"/>
+					</Option>
+					<Option id="1" displayName="Выдать арбалет (Охотничий)">
+						<Entry varId="CheatGiveCrossbow" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatGiveBolts" displayName="Выдать набор всех видов болтов" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="---">
+						<Entry varId="CheatGiveBolts" value="0"/>
+					</Option>
+					<Option id="1" displayName="Выдать комплект болтов (+50 шт. каждого вида)">
+						<Entry varId="CheatGiveBolts" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatCrossbowDamage" displayName="Множитель урона болтов" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="1x (Стандартный)">
+						<Entry varId="CheatCrossbowDamage" value="0"/>
+					</Option>
+					<Option id="1" displayName="3x (В 3 раза)">
+						<Entry varId="CheatCrossbowDamage" value="1"/>
+					</Option>
+					<Option id="2" displayName="5x (В 5 раз)">
+						<Entry varId="CheatCrossbowDamage" value="2"/>
+					</Option>
+					<Option id="3" displayName="10x (В 10 раз)">
+						<Entry varId="CheatCrossbowDamage" value="3"/>
+					</Option>
+					<Option id="4" displayName="Ваншот (Мгновенное убийство)">
+						<Entry varId="CheatCrossbowDamage" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatCrossbowInfinite" displayName="Бесконечные болты" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatCrossbowVolley" displayName="Залповый огонь (Веер болтов)" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="1 болт (Обычный выстрел)">
+						<Entry varId="CheatCrossbowVolley" value="0"/>
+					</Option>
+					<Option id="1" displayName="3 болта (Тройной веер)">
+						<Entry varId="CheatCrossbowVolley" value="1"/>
+					</Option>
+					<Option id="2" displayName="5 болтов (Шквальный веер)">
+						<Entry varId="CheatCrossbowVolley" value="2"/>
+					</Option>
+					<Option id="3" displayName="7 болтов (Град стрел - 7 болтов)">
+						<Entry varId="CheatCrossbowVolley" value="3"/>
+					</Option>
+					<Option id="4" displayName="9 болтов (Стена стрел - 9 болтов)">
+						<Entry varId="CheatCrossbowVolley" value="4"/>
+					</Option>
+					<Option id="5" displayName="12 болтов (Ураганный шквал - 12 болтов)">
+						<Entry varId="CheatCrossbowVolley" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatCrossbowImpactEffect" displayName="Эффект попадания болта" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Отключено (Стандарт)">
+						<Entry varId="CheatCrossbowImpactEffect" value="0"/>
+					</Option>
+					<Option id="1" displayName="Падение метеорита с неба">
+						<Entry varId="CheatCrossbowImpactEffect" value="1"/>
+					</Option>
+					<Option id="2" displayName="Взрывная волна (Осколочная бомба)">
+						<Entry varId="CheatCrossbowImpactEffect" value="2"/>
+					</Option>
+					<Option id="3" displayName="Ледяная глыба (Заморозка в статую)">
+						<Entry varId="CheatCrossbowImpactEffect" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsProgression" displayName="mods.cheats_progression" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatAllMutationsActive" displayName="Все 12 мутаций активны одновременно" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatAllSkillsActive" displayName="Все навыки активны пассивно (максимум)" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatRunesMultiplier" displayName="Сила и множитель рунных камней" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="1x: Обычная сила (Стандарт: 2% - 5% за руну)">
+						<Entry varId="CheatRunesMultiplier" value="0"/>
+					</Option>
+					<Option id="1" displayName="2x: В 2 раза (+100% бонус: эффекты до 10%, мощь +20%)">
+						<Entry varId="CheatRunesMultiplier" value="1"/>
+					</Option>
+					<Option id="2" displayName="3x: В 3 раза (+200% бонус: эффекты до 15%, мощь +30%)">
+						<Entry varId="CheatRunesMultiplier" value="2"/>
+					</Option>
+					<Option id="3" displayName="5x: В 5 раз (+400% бонус: эффекты до 25%, мощь +50%)">
+						<Entry varId="CheatRunesMultiplier" value="3"/>
+					</Option>
+					<Option id="4" displayName="10x: В 10 раз (+900% бонус: эффекты до 50%, мощь +100%)">
+						<Entry varId="CheatRunesMultiplier" value="4"/>
+					</Option>
+					<Option id="5" displayName="100% Шанс: Абсолют (100% срабатывание эффекта с удара)">
+						<Entry varId="CheatRunesMultiplier" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatRunesDisplayInfo" displayName="Инфо: отображение силы рун" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Все усиления видны зелёным в подсказках оружия и рун">
+						<Entry varId="CheatRunesDisplayInfo" value="0"/>
+					</Option>
+					<Option id="1" displayName="Руны урона (Деван/Даждьбог/Моран/Триглав/Зоря): шанс эффектов">
+						<Entry varId="CheatRunesDisplayInfo" value="1"/>
+					</Option>
+					<Option id="2" displayName="Руна Велес и Глифы брони: увеличивают мощь знаков">
+						<Entry varId="CheatRunesDisplayInfo" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsAard" displayName="mods.signs_aard" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatAardRange" displayName="Дальность и зона знака Аард" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Стандартная (1x)">
+						<Entry varId="CheatAardRange" value="0"/>
+					</Option>
+					<Option id="1" displayName="Увеличенная 2x (дальность ~15м, угол 120°)">
+						<Entry varId="CheatAardRange" value="1"/>
+					</Option>
+					<Option id="2" displayName="Экстремальная 3x (дальность ~25м, угол 180°)">
+						<Entry varId="CheatAardRange" value="2"/>
+					</Option>
+					<Option id="3" displayName="Круговой шквал 360° (радиус ~20м вокруг Геральта)">
+						<Entry varId="CheatAardRange" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatAardFreeze" displayName="Заморозка знака Аард (Эффект руны Зоря)" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Выключено (Только кинетический толчок)">
+						<Entry varId="CheatAardFreeze" value="0"/>
+					</Option>
+					<Option id="1" displayName="25% Шанс заморозки">
+						<Entry varId="CheatAardFreeze" value="25"/>
+					</Option>
+					<Option id="2" displayName="50% Шанс заморозки">
+						<Entry varId="CheatAardFreeze" value="50"/>
+					</Option>
+					<Option id="3" displayName="100% Шанс (Замораживает всегда)">
+						<Entry varId="CheatAardFreeze" value="100"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatAardFreezeDuration" displayName="Длительность заморозки (Статуи льда)" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="По умолчанию (6 секунд)">
+						<Entry varId="CheatAardFreezeDuration" value="0"/>
+					</Option>
+					<Option id="1" displayName="10 секунд">
+						<Entry varId="CheatAardFreezeDuration" value="1"/>
+					</Option>
+					<Option id="2" displayName="15 секунд">
+						<Entry varId="CheatAardFreezeDuration" value="2"/>
+					</Option>
+					<Option id="3" displayName="30 секунд">
+						<Entry varId="CheatAardFreezeDuration" value="3"/>
+					</Option>
+					<Option id="4" displayName="60 секунд (1 минута)">
+						<Entry varId="CheatAardFreezeDuration" value="4"/>
+					</Option>
+					<Option id="5" displayName="180 секунд (3 минуты)">
+						<Entry varId="CheatAardFreezeDuration" value="5"/>
+					</Option>
+					<Option id="6" displayName="Бессрочно (до удара мечом / смерти)">
+						<Entry varId="CheatAardFreezeDuration" value="6"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsIgni" displayName="mods.signs_igni" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatIgniRange" displayName="Дальность и зона знака Игни" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Стандартная (1x)">
+						<Entry varId="CheatIgniRange" value="0"/>
+					</Option>
+					<Option id="1" displayName="Увеличенная 2x (дальность ~15м, угол 120°)">
+						<Entry varId="CheatIgniRange" value="1"/>
+					</Option>
+					<Option id="2" displayName="Экстремальная 3x (дальность ~25м, угол 180°)">
+						<Entry varId="CheatIgniRange" value="2"/>
+					</Option>
+					<Option id="3" displayName="Круговой взрыв 360° (радиус ~20м вокруг Геральта)">
+						<Entry varId="CheatIgniRange" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatIgniPillar" displayName="Огненные спецэффекты при попадании" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatIgniPillarType" displayName="Тип эффекта при попадании" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Огненный гейзер из-под земли">
+						<Entry varId="CheatIgniPillarType" value="0"/>
+					</Option>
+					<Option id="1" displayName="Метеоритный удар с небес (Каэр Морхен)">
+						<Entry varId="CheatIgniPillarType" value="1"/>
+					</Option>
+					<Option id="2" displayName="Апокалипсис: Гейзер из земли + Метеорит">
+						<Entry varId="CheatIgniPillarType" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatIgniPillarDamage" displayName="Дополнительный урон от эффекта" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Только визуал (Без доп. урона - 0)">
+						<Entry varId="CheatIgniPillarDamage" value="0"/>
+					</Option>
+					<Option id="1" displayName="Легкий (+50 урона)">
+						<Entry varId="CheatIgniPillarDamage" value="1"/>
+					</Option>
+					<Option id="2" displayName="Умеренный (+150 урона)">
+						<Entry varId="CheatIgniPillarDamage" value="2"/>
+					</Option>
+					<Option id="3" displayName="Ощутимый (+400 урона)">
+						<Entry varId="CheatIgniPillarDamage" value="3"/>
+					</Option>
+					<Option id="4" displayName="Смертоносный (Ваншот)">
+						<Entry varId="CheatIgniPillarDamage" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsYrden" displayName="mods.signs_yrden" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatYrdenRange" displayName="Радиус зоны знака Ирден" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Стандартный (1x)">
+						<Entry varId="CheatYrdenRange" value="0"/>
+					</Option>
+					<Option id="1" displayName="Увеличенный 2x (радиус ~12м)">
+						<Entry varId="CheatYrdenRange" value="1"/>
+					</Option>
+					<Option id="2" displayName="Экстремальный 3x (радиус ~20м)">
+						<Entry varId="CheatYrdenRange" value="2"/>
+					</Option>
+					<Option id="3" displayName="Поле на всю арену (радиус ~35м)">
+						<Entry varId="CheatYrdenRange" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatYrdenSlow" displayName="Сила замедления знака Ирден" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="По умолчанию (стандарт игры)">
+						<Entry varId="CheatYrdenSlow" value="0"/>
+					</Option>
+					<Option id="1" displayName="50% (Умеренное замедление)">
+						<Entry varId="CheatYrdenSlow" value="1"/>
+					</Option>
+					<Option id="2" displayName="75% (Сильное замедление)">
+						<Entry varId="CheatYrdenSlow" value="2"/>
+					</Option>
+					<Option id="3" displayName="90% (Сверхзамедление)">
+						<Entry varId="CheatYrdenSlow" value="3"/>
+					</Option>
+					<Option id="4" displayName="95% (Глубокий эффект «Матрицы»)">
+						<Entry varId="CheatYrdenSlow" value="4"/>
+					</Option>
+					<Option id="5" displayName="99% (Полный стоп-кадр / заморозка времени)">
+						<Entry varId="CheatYrdenSlow" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsQuen" displayName="mods.signs_quen" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatQuenMode" displayName="Нерушимый щит: Квен" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="По умолчанию (Обычный)">
+						<Entry varId="CheatQuenMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="Вкл (Нерушимый + Контрудар молнией + Бесконечная сфера)">
+						<Entry varId="CheatQuenMode" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatQuenDuration" displayName="Длительность щита: Квен" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="По умолчанию (30 сек)">
+						<Entry varId="CheatQuenDuration" value="0"/>
+					</Option>
+					<Option id="1" displayName="60 сек (1 минута)">
+						<Entry varId="CheatQuenDuration" value="1"/>
+					</Option>
+					<Option id="2" displayName="180 сек (3 минуты)">
+						<Entry varId="CheatQuenDuration" value="2"/>
+					</Option>
+					<Option id="3" displayName="300 сек (5 минут)">
+						<Entry varId="CheatQuenDuration" value="3"/>
+					</Option>
+					<Option id="4" displayName="Бесконечный (пока не снимешь)">
+						<Entry varId="CheatQuenDuration" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsAxii" displayName="mods.signs_axii" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatAxiiRange" displayName="Дальность и зона знака Аксий" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Стандартная (1x)">
+						<Entry varId="CheatAxiiRange" value="0"/>
+					</Option>
+					<Option id="1" displayName="Увеличенная 2x (дальность ~15м, угол 120°)">
+						<Entry varId="CheatAxiiRange" value="1"/>
+					</Option>
+					<Option id="2" displayName="Экстремальная 3x (дальность ~25м, угол 180°)">
+						<Entry varId="CheatAxiiRange" value="2"/>
+					</Option>
+					<Option id="3" displayName="Круговой пси-импульс 360° (радиус ~20м вокруг Геральта)">
+						<Entry varId="CheatAxiiRange" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatAxiiDuration" displayName="Длительность действия знака Аксий" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="По умолчанию (стандарт игры ~7-9с)">
+						<Entry varId="CheatAxiiDuration" value="0"/>
+					</Option>
+					<Option id="1" displayName="15 секунд">
+						<Entry varId="CheatAxiiDuration" value="1"/>
+					</Option>
+					<Option id="2" displayName="30 секунд">
+						<Entry varId="CheatAxiiDuration" value="2"/>
+					</Option>
+					<Option id="3" displayName="60 секунд (1 минута)">
+						<Entry varId="CheatAxiiDuration" value="3"/>
+					</Option>
+					<Option id="4" displayName="180 секунд (3 минуты)">
+						<Entry varId="CheatAxiiDuration" value="4"/>
+					</Option>
+					<Option id="5" displayName="Бессрочно (до конца боя / смерти)">
+						<Entry varId="CheatAxiiDuration" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+	<Group id="CheatsBombs" displayName="mods.cheats_bombs" tags="customDisplayName">
+		<VisibleVars>
+			<Var id="CheatMeteorBomb" displayName="Метеоритный дождь от бомб (Каэр Морхен)" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="CheatMeteorCount" displayName="Количество метеоритов" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="5 метеоритов (Точечный удар)">
+						<Entry varId="CheatMeteorCount" value="0"/>
+					</Option>
+					<Option id="1" displayName="10 метеоритов (Умеренный залп)">
+						<Entry varId="CheatMeteorCount" value="1"/>
+					</Option>
+					<Option id="2" displayName="15 метеоритов (Стандартный шквал)">
+						<Entry varId="CheatMeteorCount" value="2"/>
+					</Option>
+					<Option id="3" displayName="20 метеоритов (Массированный шквал)">
+						<Entry varId="CheatMeteorCount" value="3"/>
+					</Option>
+					<Option id="4" displayName="30 метеоритов (Буря Каэр Морхена)">
+						<Entry varId="CheatMeteorCount" value="4"/>
+					</Option>
+					<Option id="5" displayName="50 метеоритов (Армагеддон)">
+						<Entry varId="CheatMeteorCount" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatMeteorRadius" displayName="Радиус зоны разброса" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="10 м (Кучно / в эпицентр)">
+						<Entry varId="CheatMeteorRadius" value="0"/>
+					</Option>
+					<Option id="1" displayName="20 м (Средний / лагерь врагов)">
+						<Entry varId="CheatMeteorRadius" value="1"/>
+					</Option>
+					<Option id="2" displayName="35 м (Широкий / ковровая бомбардировка)">
+						<Entry varId="CheatMeteorRadius" value="2"/>
+					</Option>
+					<Option id="3" displayName="50 м (Огромный / всё поле боя)">
+						<Entry varId="CheatMeteorRadius" value="3"/>
+					</Option>
+					<Option id="4" displayName="100 м (Глобальный / вся округа)">
+						<Entry varId="CheatMeteorRadius" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatInfiniteBombs" displayName="Бесконечный запас бомб (не тратятся при броске)" displayType="TOGGLE" tags="nonLocalizedName"/>
+			<Var id="SeparatorGeraltMeteors" displayName="--- ПАДЕНИЕ МЕТЕОРИТОВ ВОКРУГ ГЕРАЛЬТА ---" displayType="SUBTLE_SEPARATOR" tags="nonLocalizedName"/>
+			<Var id="CheatGeraltMeteorMode" displayName="Метеоритный дождь вокруг Геральта" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Выключено">
+						<Entry varId="CheatGeraltMeteorMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="Вкл: Только в бою (при виде врагов)">
+						<Entry varId="CheatGeraltMeteorMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="Вкл: Всегда (постоянный шторм)">
+						<Entry varId="CheatGeraltMeteorMode" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatGeraltMeteorRadius" displayName="Радиус зоны вокруг Геральта" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="15 м (Близко вокруг Геральта)">
+						<Entry varId="CheatGeraltMeteorRadius" value="0"/>
+					</Option>
+					<Option id="1" displayName="25 м (Средний радиус / ближний бой)">
+						<Entry varId="CheatGeraltMeteorRadius" value="1"/>
+					</Option>
+					<Option id="2" displayName="40 м (Широкая зона)">
+						<Entry varId="CheatGeraltMeteorRadius" value="2"/>
+					</Option>
+					<Option id="3" displayName="60 м (Дальний периметр)">
+						<Entry varId="CheatGeraltMeteorRadius" value="3"/>
+					</Option>
+					<Option id="4" displayName="100 м (Глобальный шквал на всю округу)">
+						<Entry varId="CheatGeraltMeteorRadius" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CheatGeraltMeteorInterval" displayName="Частота падения метеоритов" displayType="OPTIONS" tags="nonLocalizedName;customNames;nonLocalized">
+				<OptionsArray>
+					<Option id="0" displayName="Каждую 1 сек (Интенсивный артобстрел)">
+						<Entry varId="CheatGeraltMeteorInterval" value="0"/>
+					</Option>
+					<Option id="1" displayName="Каждые 2 сек (Оптимальный темп)">
+						<Entry varId="CheatGeraltMeteorInterval" value="1"/>
+					</Option>
+					<Option id="2" displayName="Каждые 4 сек (Умеренный темп)">
+						<Entry varId="CheatGeraltMeteorInterval" value="2"/>
+					</Option>
+					<Option id="3" displayName="Каждые 7 сек (Редкие мощные удары)">
+						<Entry varId="CheatGeraltMeteorInterval" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+</UserConfig>

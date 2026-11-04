@@ -1,0 +1,4 @@
+{
+  "summary": "Updated PlayerAbilityManager.ws with full passive skill activation (CanUseSkill, IsSkillEquipped, GetSkillLevel, HasLearnedSkill), unlocked mutation skill slots, and sound bank preloading.",
+  "updatedAt": "2026-10-13T16:36:55.871355900Z"
+}
