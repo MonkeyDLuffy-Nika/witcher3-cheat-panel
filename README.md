@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/The_Witcher_3-Next--Gen_4.04+-CD7F32?style=for-the-badge&logo=gogdotcom&logoColor=white" alt="Game Version" />
   <img src="https://img.shields.io/badge/WitcherScript-Native_Mods-00F0FF?style=for-the-badge" alt="Language" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge" alt="License: GPL v3" /></a>
 </p>
 
 ---
@@ -77,3 +77,18 @@ A comprehensive in-game cheat panel and gameplay modifier integrated directly in
 2. Запустите `INSTALL.bat` (скрипт сам найдет путь к Steam, GOG или предложит ручной путь).
    - Либо вручную скопируйте папки `bin` и `mods` в корень игры.
 3. Запустите Ведьмак 3 ➔ `Настройки` ➔ `МОДИФИКАЦИИ` ➔ Наслаждайтесь игрой!
+
+---
+
+## 📄 Лицензия / License
+
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+See the [LICENSE](LICENSE) file for the full license text.
+
+Проект защищен строгой копилефт-лицензией **GNU General Public License v3.0 (GPL-3.0)**:
+- 🔓 **Открытый исходный код**: разрешено свободно изучать, модифицировать и использовать проект.
+- 🛡️ **Защита от кражи и закрытия (Copyleft)**: любые изменения, форки и производные работы **обязаны оставаться полностью открытыми, бесплатными и распространяться под той же лицензией GPL v3**.
+- 🚫 **Запрет на присвоение**: закрывать исходный код, продавать или использовать проект в закрытых коммерческих продуктах запрещено.
+- ✍️ **Указание авторства**: сохранение уведомления об авторских правах обязательно.
+
+Copyright © 2026 **Fenix** (`MonkeyDLuffy-Nika`). All rights reserved.
